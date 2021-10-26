@@ -13,6 +13,6 @@ function StealthWithRandoms.sendChatMessage(message)
 end
 
 function StealthWithRandoms.sendWarningMessage()
-    local message = "This lobby uses the \"Stealth With Randoms\" mod. If a user does not know the mission well enough or if he triggers the alarm, he may be kicked quickly using a keyboard shortcut."
+    local message = "\"Stealth With Randoms\" mod: If a player does not know the mission well enough or if he triggers the alarm, he may be kicked quickly using a keyboard shortcut. The host will do it's best not to fail."
     StealthWithRandoms.sendChatMessage(message)
 end

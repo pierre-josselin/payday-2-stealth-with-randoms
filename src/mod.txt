@@ -1,0 +1,52 @@
+{
+    "name": "Stealth With Randoms",
+    "description": "Stealth With Randoms",
+    "author": "ChildOfSorrow",
+    "contact": "ChildOfSorrow",
+    "version": "1.0.0",
+    "blt_version": 2,
+    "persist_scripts": [
+        {
+            "global": "StealthWithRandoms",
+            "script_path": "classes/StealthWithRandoms.lua"
+        }
+    ],
+    "keybinds": [
+        {
+            "keybind_id": "SWRKeybindSendWarningMessage",
+            "name": "send warning message",
+            "description": "send warning message",
+            "script_path": "keybinds/send-warning-message.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "SWRKeybindKickPlayer2",
+            "name": "kick player 2",
+            "description": "kick player 2",
+            "script_path": "keybinds/kick-player-2.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "SWRKeybindKickPlayer3",
+            "name": "kick player 3",
+            "description": "kick player 3",
+            "script_path": "keybinds/kick-player-3.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "SWRKeybindKickPlayer4",
+            "name": "kick player 4",
+            "description": "kick player 4",
+            "script_path": "keybinds/kick-player-4.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        }
+    ]
+}
